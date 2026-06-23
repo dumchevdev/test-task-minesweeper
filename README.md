@@ -152,7 +152,7 @@ The UI follows the **MVP (Model-View-Presenter)** pattern. Each screen has a Vie
 
 ## ✅ Testing
 
-Tests are written using **NUnit Edit Mode** and live in a separate `Minesweeper.Tests.EditMode` assembly, isolated from runtime code. All test scenarios use a shared `TestsHelper` that generates a deterministic 9×9 field with 10 mines and a fixed seed of 42 - guaranteeing reproducibility regardless of run.
+Tests are written using **NUnit Edit Mode** and live in a separate `Minesweeper.Tests.EditMode` assembly, isolated from runtime code.
 
 | Test Class         | What's Covered |
 |--------------------|---|
